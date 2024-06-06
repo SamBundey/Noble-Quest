@@ -13,14 +13,17 @@
   background-image: url(./images/nq_title.jpg);  /* the image added in step 1 */
   background-size: cover;  /* cover the whole element */
   background-repeat: no-repeat;  /* do not repeat the background image */
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Title Screen" tags="example-background nq_title.jpg" position="500,200" size="100,100">
+
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Title Screen" tags="example-background nq_title.jpg" position="500,200" size="100,100">
 &lt;span class=&quot;next.next a {
 display: none;
-}&quot;&gt;[[Next|Introduction]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="2" name="Introduction" tags="" position="500,325" size="100,100">You are playing as the Noble Hero, saviour of all the realms, dispeller of evil, and most awesomest and coolest of gallant knights. His exploits have brought him great boons, including a sick magic sword, expensive armour, a castle, fame across the world, and even a girlfriend!
+}&quot;&gt;[[Next|Introduction]]&lt;/span&gt;
+</tw-passagedata><tw-passagedata pid="2" name="Introduction" tags="" position="500,325" size="100,100">You are playing as the Noble Hero, saviour of all the realms, dispeller of evil, and most awesomest and coolest of gallant knights. His exploits have brought him great boons, including a sick magic sword, expensive armour, a castle, fame across the world, and even a girlfriend!
 
 Unfortunately, his girlfriend is a [[princess-&gt;princess]]. </tw-passagedata><tw-passagedata pid="3" name="princess" tags="" position="500,450" size="100,100">There are a whole lot of perks to the whole princess thing, but as of late she&#39;s been a little high maintenence. She keeps bothering the Hero about &quot;date night,&quot; &quot;love languages,&quot; and &quot;cleaning up the man-cave after poker night.&quot; She doesn&#39;t understand that you&#39;re not //meant// to clean up the man-cave. It&#39;s a part of the aesthetic. 
 
-Lately, she&#39;s been getting kidnapped alot. The Hero does not mind this so much, because he gets to go on a kick-ass adventure and the princess is always lovey dovey after being saved. 
+Lately, she&#39;s been getting kidnapped alot. The Hero doesn&#39;t mind this so much, because he gets to go on kick-ass adventures and the princess is always lovey dovey after being saved. 
 
 But, it is kinda getting to be a bother. The Hero can only defeat so many evil wizards, warlords, and warlocks before they start to blur together. And he&#39;s always crushing the same fragile skeletons, dark spirits, and flesh eating zombies along the way. It&#39;s just very repetetive.
 
@@ -40,8 +43,116 @@ The Evil Witch
 
 Great. Another [[adventure-&gt;adventure]]</tw-passagedata><tw-passagedata pid="5" name="adventure" tags="" position="500,700" size="100,100">The hero supposed it was time he had better get a move on with it. According to the Witch&#39;s letter (which I shortened for the sake of you, the reader) the first evil minion he had to fight was &quot;the Cultivator.&quot; Thankfully there was an address attatched, so he knew exactly where to go. 
 
-[[travel to address-&gt;travel to address]]</tw-passagedata><tw-passagedata pid="6" name="travel to address" tags="" position="500,825" size="100,100">The hero travelled for a time. He saw the same old country side he&#39;s travelled through a million times, crossed the same old rickety bridge, completed the same old trolls riddles three, before finally his path diverged from the traditional path. 
-</tw-passagedata></tw-storydata>
+[[travel to address-&gt;travel to address]]</tw-passagedata><tw-passagedata pid="6" name="travel to address" tags="" position="500,825" size="100,100">The hero travelled for a time. He saw the same old country side he&#39;s travelled through a million times, crossed the same old rickety bridge, completed the same old trolls riddles three, before finally his path diverged from the traditional [[path-&gt;path]]. 
+</tw-passagedata><tw-passagedata pid="7" name="path" tags="" position="500,950" size="100,100">Through a convulated and confusing series of events simultaneously too complicated and too boring to explain, the hero arrived in a strange landscape. 
+
+Everything was oddly flat and grainy, like if he had walked into Doom. 
+
+But rather than a dystopic hellscape, he was on a [[farm-&gt;farm]]
+</tw-passagedata><tw-passagedata pid="8" name="farm" tags="" position="500,1075" size="100,100">The hero approached the farm, weary that this may be a trap. But no saws sprung from the ground, no zombies shambled from the fields of neon grass, no spells were cast.
+
+So he knocked on the [[door-&gt;farm door]]</tw-passagedata><tw-passagedata pid="9" name="farm door" tags="" position="500,1200" size="100,100">A figure emerged from the farm to greet the Hero.
+
+The figure looked like a normal farmer, except for his triangular head. 
+
+He told the hero that he was the Cultivator, and that he was here to help the hero. 
+
+The hero was rightfully cautious. He knew the note said he had to defeat the evil minions. But this minion did not seem very evil. Was it [[trickery-&gt;trickery]]?
+
+</tw-passagedata><tw-passagedata pid="10" name="trickery" tags="" position="500,1325" size="100,100">Regardless, he decided to give the Cultivator the benefit of the doubt. One does not become a great hero by striking down those who *might* be evil.
+
+The Hero asked how the Cultivator was going to help. He was told that all he needed to do to defeat the Cultivator was solve a [[riddle-&gt;Question 1]]</tw-passagedata><tw-passagedata pid="11" name="Riddle 1" tags="" position="500,1450" size="100,100">
+(set: $answer to (prompt: &quot;Answer the riddle&quot; , &quot;&quot;))
+(if: $answer is &quot;memories&quot;) [[[BINGO!-&gt;Correct 1]]!](else:) [WRONG! [[Try Again-&gt;Riddle 1]]]
+
+
+Read the [[letter-&gt;Letter 1]] again.
+
+Check the [[riddle-&gt;Question 1]] again.</tw-passagedata><tw-passagedata pid="12" name="Correct 1" tags="" position="500,1575" size="100,100">The Hero solved the riddle. Following the map he found himself in an empty dusty wasteland, in the middle a dead tree. In the tree sat a strange birdlike creature.
+
+This must be the [[Great Kapu-&gt;Great Kapu]]</tw-passagedata><tw-passagedata pid="13" name="Letter 1" tags="" position="625,1575" size="100,100">You read the letter. Go back to the [[riddle-&gt;Riddle 1]]</tw-passagedata><tw-passagedata pid="14" name="Question 1" tags="" position="625,1450" size="100,100">The Riddle was this, 
+
+&quot;What bitter-sweet mirage makes the rational delusional?&quot;
+
+
+If you&#39;re having trouble, the Evil Witch has left a [[letter-&gt;Letter 1]] handwritten by the Princess. 
+
+Answer the [[riddle-&gt;Riddle 1]]. </tw-passagedata><tw-passagedata pid="15" name="Great Kapu" tags="" position="500,1700" size="100,100">I AM THE GREAT KAPU!!
+
+yelled the Great Kapu from his tree. 
+
+AN&#39; I AM STUCK IN THIS TREE!
+
+yelled the Great Kapu from the tree he was stuck in.
+
+DO YOU KNOW WHO I AM HERO?
+
+Yelled the Great Kapu to the Hero, even though the Hero was now like five feet away from him and could hear him perfectly fine.
+
+[[Remember-&gt;remember]] the Great Kapu...</tw-passagedata><tw-passagedata pid="16" name="remember" tags="" position="500,1825" size="100,100">The Hero remembered tales of the Great Kapu. 
+
+A mythical creature which granted a wish to whomever captured it!
+
+Wait a minute, the Hero thought, realising that he could use the Great Kapu&#39;s wish to save the [[Princess-&gt;no you cant]]. Or for something cooler...</tw-passagedata><tw-passagedata pid="17" name="no you cant" tags="" position="500,1950" size="100,100">I SEE YOU KNOW WHO I AM!
+
+Yelled the Great Kapu.
+
+I SEE YOU ARE CONTEMPLATING USING ME FOR MY WISH!
+
+BUT YOU CANNOT!
+
+YOU SEE I HAVE BEEN WISHED TO STAY IN THIS TREE.
+
+AND FOR AS LONG AS I AM STUCK IN THE TREE I MAY NOT GRANT WISHES.
+
+GRANTING WISHES IS MY PURPOSE.
+
+SO THIS IS REALLY FUCKING ANNOYING ACTUALLY. 
+
+That seemed very [[annoying-&gt;yea it is]] to the Hero</tw-passagedata><tw-passagedata pid="18" name="yea it is" tags="" position="500,2075" size="100,100">I WILL BE STUCK IN THIS TREE &#39;TILL YOU SOLVE THIS NEXT RIDDLE!
+
+But the Hero did not want to solve the riddle. 
+
+Riddles were boring and annoying and he had JUST solved one. 
+
+So he told the Great Kapu he would simply chop down the tree to [[free-&gt;Tree chopping]] him. </tw-passagedata><tw-passagedata pid="19" name="Tree chopping" tags="" position="500,2200" size="100,100">THAT&#39;S ACTUALLY REALLY SMART!
+
+BUT YOU CAN&#39;T.
+
+YOU SEE I CAN&#39;T LEAVE THIS TREE UNTIL THE RIDDLE IS SOLVED. 
+
+EVEN IF THE TREE IS CHOPPED DOWN.
+
+SO I&#39;LL JUST BE STUCK ON THIS FALLEN DOWN TREE.
+
+WHICH WOULD [[SUCK-&gt;suck]].
+
+</tw-passagedata><tw-passagedata pid="20" name="suck" tags="" position="500,2325" size="100,100">If the Hero was called the Wise Hero instead of the Noble Hero he may had contemplated the philosophical concept of a tree and how much a tree can be altered before it is no longer a tree. But he was not, so he did not. Instead he had to solve another stupid [[riddle-&gt;Question 2]].</tw-passagedata><tw-passagedata pid="21" name="Question 2" tags="" position="500,2450" size="100,100">WHAT MAKES YOU SHAKE AND QUAKE AND THROTTLE 
+
+WHAT MAKES YOU BLIND AND DUMB LIKE CATTLE?
+
+ANSWER THE [[RIDDLE-&gt;Riddle 2]].
+
+ALSO THERE&#39;S LIKE A [[LETTER-&gt;Letter 2]] HERE.</tw-passagedata><tw-passagedata pid="22" name="Riddle 2" tags="" position="500,2575" size="100,100">
+(set: $answer to (prompt: &quot;Answer the riddle&quot; , &quot;&quot;))
+(if: $answer is &quot;anger&quot;) [[[THAT &#39;S CORRECT-&gt;Correct 2]]!](else:) [YOU&#39;RE WRONG, TRY AGAIN BUT SMARTER! [[Try Again-&gt;Riddle 2]]]
+
+
+Read the [[letter-&gt;Letter 2]] again.
+
+Check the [[riddle-&gt;Question 2]] again.
+
+</tw-passagedata><tw-passagedata pid="23" name="Letter 2" tags="" position="625,2575" size="100,100"></tw-passagedata><tw-passagedata pid="24" name="Correct 2" tags="" position="500,2700" size="100,100">IM FREE.
+
+THANK YOU NOBLE HERO.
+
+I KNOW YOU ARE NOW EXPECTING A WISH, BUT UNFORTUNATELY, I LIED TO YOU.
+
+I WAS WISHED TO NEVER BE ABLE TO GRANT YOU A WISH. 
+
+I ALSO WASN&#39;T STUCK IN THE TREE, I JUST LIKE BEING IN THIS TREE.
+
+BUT YOU, AS PER THE EVIL WITCHES RULES, YOU HAVE DEFEATED ME, AND MAY CONTINUE ON YOUR JOURNEY.</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
